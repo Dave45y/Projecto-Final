@@ -128,8 +128,8 @@
       padding: 0.8rem 1rem;
       border: none;
       border-radius: 14px;
-      background: #232323;
-      color: #bdbdbd;
+      background: #232323 !important;
+      color: #bdbdbd !important;
       font-size: 1rem;
       box-shadow:
         4px 4px 12px #181818,
@@ -137,41 +137,29 @@
         0 1.5px 8px #0008;
       transition: box-shadow 0.2s, background 0.2s, color 0.2s;
       outline: none;
-      -webkit-box-shadow: 0 0 0 1000px #232323 inset, 4px 4px 12px #181818, -4px -4px 12px #2e2e2e, 0 1.5px 8px #0008;
-      box-shadow: 0 0 0 1000px #232323 inset, 4px 4px 12px #181818, -4px -4px 12px #2e2e2e, 0 1.5px 8px #0008;
+      -webkit-box-shadow: 0 0 0 1000px #232323 inset, 4px 4px 12px #181818, -4px -4px 12px #2e2e2e, 0 1.5px 8px #0008 !important;
+      box-shadow: 0 0 0 1000px #232323 inset, 4px 4px 12px #181818, -4px -4px 12px #2e2e2e, 0 1.5px 8px #0008 !important;
     }
 
-    input:-webkit-autofill {
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
       -webkit-box-shadow: 0 0 0 1000px #232323 inset !important;
+      box-shadow: 0 0 0 1000px #232323 inset, 4px 4px 12px #181818, -4px -4px 12px #2e2e2e, 0 1.5px 8px #0008 !important;
       -webkit-text-fill-color: #bdbdbd !important;
       color: #bdbdbd !important;
       caret-color: #bdbdbd !important;
       border: none;
-      /* Neumorfismo */
-      box-shadow: 0 0 0 1000px #232323 inset, 4px 4px 12px #181818, -4px -4px 12px #2e2e2e, 0 1.5px 8px #0008;
-    }
-
-    input:-webkit-autofill:focus {
-      -webkit-box-shadow: 0 0 0 1000px #262626 inset !important;
-      -webkit-text-fill-color: #fff !important;
-    }
-
-    input:-webkit-autofill::first-line {
-      font-family: 'Segoe UI', sans-serif;
     }
 
     input:focus {
-      background: #262626;
-      color: #fff;
-      box-shadow:
-        0 0 0 1000px #262626 inset,
-        2px 2px 8px #181818,
-        -2px -2px 8px #2e2e2e,
-        0 1.5px 8px #0008;
+      background: #262626 !important;
+      color: #fff !important;
+      -webkit-box-shadow: 0 0 0 1000px #262626 inset, 2px 2px 8px #181818, -2px -2px 8px #2e2e2e, 0 1.5px 8px #0008 !important;
+      box-shadow: 0 0 0 1000px #262626 inset, 2px 2px 8px #181818, -2px -2px 8px #2e2e2e, 0 1.5px 8px #0008 !important;
     }
 
     input::placeholder {
-      color: #bdbdbd;
+      color: #bdbdbd !important;
       opacity: 1;
     }
 
