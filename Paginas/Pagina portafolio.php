@@ -1,5 +1,5 @@
-
-    
+    <?php 
+    require 'header.php';>
     <div class="bento-grid">
         <div class="bento-item item1">
             <div class="card">

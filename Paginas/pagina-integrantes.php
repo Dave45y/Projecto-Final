@@ -1,12 +1,14 @@
-
-    <!-- Contenido principal de la nueva página -->
+ <?php 
+    require 'header.php'; ?>
+ 
+ <!-- Contenido principal de la nueva página -->
     <div style="color: aliceblue; text-align: center; margin-top: 4rem;">
-        <h1 style="font-size: 3.5rem; letter-spacing: 1px; font-weight: bold;">Bienvenido Dave Quintero</h1>
+        <h1 style="font-size: 3.5rem; letter-spacing: 1px; font-weight: bold;">Bienvenido (Usuario)</h1>
         
     </div>
 
     <div style="color: aliceblue; text-align: center; margin: 2rem 0 1.5rem 0;">
-        <p>Mira lo que es capaz el equipo de DotBox Studio</p>
+        <p>Mira de lo que es capaz el equipo de DotBox Studio</p>
     </div>
 
     <div class="integrantes-grid-outer">
@@ -14,7 +16,7 @@
             <div class="integrante-card">
                 <div class="integrante-content">
                     <img src="../Recursos/freddy.jpg" alt="Integrante 1" class="integrante-photo">
-                    <div class="integrante-name">Integrante 1</div>
+                    <div class="integrante-name">David Quintero</div>
                     <button class="integrante-portfolio-btn">Ver portafolio</button>
                 </div>
             </div>
