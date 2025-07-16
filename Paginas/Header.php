@@ -18,10 +18,11 @@
             </a>
         </div>
         <div class="header-center" style="height: auto;">
-            <button>About us</button>
-            <button>Inicio</button>
-            <button>Portafolios</button>
+            <a href="pagina-integrantes.php"><button>Inicio</button></a>
+
+            
         </div>
+        <!--IMAGEN DE USUARIO-->
         <div class="header-right">
             <img src="" alt="Usuario" class="user-photo" style="height:50px; width: 50px; border-radius:50%;">
         </div>

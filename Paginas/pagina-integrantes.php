@@ -17,28 +17,31 @@
                 <div class="integrante-content">
                     <img src="../Recursos/freddy.jpg" alt="Integrante 1" class="integrante-photo">
                     <div class="integrante-name">David Quintero</div>
-                    <button class="integrante-portfolio-btn">Ver portafolio</button>
+                    <a href="Dave.php"><button class="integrante-portfolio-btn">Ver portafolio</button></a>
                 </div>
             </div>
             <div class="integrante-card">
                 <div class="integrante-content">
                     <img src="../Recursos/Recurso 4-8.png" alt="Integrante 2" class="integrante-photo">
                     <div class="integrante-name">Integrante 2</div>
-                    <button class="integrante-portfolio-btn">Ver portafolio</button>
+                    <!--Aqui va el link de tu pagina portafolio-->
+                    <a href=""><button class="integrante-portfolio-btn">Ver portafolio</button></a>
                 </div>
             </div>
             <div class="integrante-card">
                 <div class="integrante-content">
                     <img src="../Recursos/Recurso 6-8.png" alt="Integrante 3" class="integrante-photo">
                     <div class="integrante-name">Integrante 3</div>
-                    <button class="integrante-portfolio-btn">Ver portafolio</button>
+                    <!--Aqui va el link de tu pagina portafolio-->
+                    <a href=""><button class="integrante-portfolio-btn">Ver portafolio</button></a>
                 </div>
             </div>
             <div class="integrante-card">
                 <div class="integrante-content">
                     <img src="../Recursos/integrante4.jpg" alt="Integrante 4" class="integrante-photo">
                     <div class="integrante-name">Integrante 4</div>
-                    <button class="integrante-portfolio-btn">Ver portafolio</button>
+                    <!--Aqui va el link de tu pagina portafolio-->
+                    <a href=""><button class="integrante-portfolio-btn">Ver portafolio</button></a>
                 </div>
             </div>
         </div>
