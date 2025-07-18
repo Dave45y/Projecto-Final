@@ -1,6 +1,6 @@
     <?php 
     require 'header.php';?>
-    
+<body class="body">   
     <div class="bento-grid">
         <div class="bento-item item1">
             <div class="card">
@@ -22,16 +22,16 @@
         <div class="bento-item item3">
             <div class="social-links-grid">
                 <a href="https://twitter.com/" class="social-btn" target="_blank" title="Twitter">
-                    <img src="Recursos/twitter.png" alt="Twitter" class="social-icon">
+                    <img src="../Recursos/Iconos/instahover.png" alt="Twitter" class="social-icon">
                 </a>
                 <a href="https://github.com/" class="social-btn" target="_blank" title="GitHub">
-                    <img src="Recursos/github.png" alt="GitHub" class="social-icon">
+                    <img src="../Recursos/Iconos/whatshover.png" alt="GitHub" class="social-icon">
                 </a>
                 <a href="https://linkedin.com/" class="social-btn" target="_blank" title="LinkedIn">
-                    <img src="Recursos/linkedin.png" alt="LinkedIn" class="social-icon">
+                    <img src="../Recursos/Iconos/insthover.png" alt="LinkedIn" class="social-icon">
                 </a>
                 <a href="https://facebook.com/" class="social-btn" target="_blank" title="Facebook">
-                    <img src="Recursos/facebook.png" alt="Facebook" class="social-icon">
+                    <img src="../Recursos/Iconos/facebookhover.png" alt="Facebook" class="social-icon">
                 </a>
             </div>
         </div>
